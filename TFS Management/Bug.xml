@@ -1,0 +1,790 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<witd:WITD application="Work item type editor" version="1.0" xmlns:witd="http://schemas.microsoft.com/VisualStudio/2008/workitemtracking/typedef">
+  <WORKITEMTYPE name="Bug">
+    <DESCRIPTION>Describes a divergence between required and actual behavior, and tracks the work done to correct the defect and verify the correction.</DESCRIPTION>
+    <GLOBALLISTS>
+      <GLOBALLIST name="Builds - CONTROLLING">
+        <LISTITEM value="IS-GiCon4.4/IS-GiCon4.4_20150223.1" />
+        <LISTITEM value="GiCon45WithWeb45/GiCon45WithWeb45_20150228.1" />
+        <LISTITEM value="IS-GiCon4.4/IS-GiCon4.4_20150408.1" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150414.1" />
+        <LISTITEM value="IS-GiCon4.4/IS-GiCon4.4_20150414.1" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150427.1" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150508.1" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150510.1" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150510.2" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150519.1" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150519.2" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150519.3" />
+        <LISTITEM value="IS-GiCon4.4/IS-GiCon4.4_20150519.1" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150703.1" />
+        <LISTITEM value="IS-GiCon4.4/IS-GiCon4.4_20150703.1" />
+        <LISTITEM value="WindowsFormsApplication4/WindowsFormsApplication4_20150721.1" />
+        <LISTITEM value="WindowsFormsApplication4/WindowsFormsApplication4_20150721.2" />
+        <LISTITEM value="WindowsFormsApplication4/WindowsFormsApplication4_20150721.3" />
+        <LISTITEM value="WindowsFormsApplication4/WindowsFormsApplication4_20150721.4" />
+        <LISTITEM value="WindowsFormsApplication5/WindowsFormsApplication5_20150721.1" />
+        <LISTITEM value="WindowsFormsApplication5/WindowsFormsApplication5_20150721.2" />
+        <LISTITEM value="WindowsFormsApplication5/WindowsFormsApplication5_20150721.3" />
+        <LISTITEM value="WindowsFormsApplication5/WindowsFormsApplication5_20150721.4" />
+        <LISTITEM value="GiCon4.4/GiCon4.4_20150721.1" />
+        <LISTITEM value="WindowsFormsApplication5/WindowsFormsApplication5_20150721.5" />
+        <LISTITEM value="WindowsFormsApplication4/WindowsFormsApplication4_20150721.5" />
+        <LISTITEM value="MNVG/MNVG_20151016.1" />
+        <LISTITEM value="MNVG/MNVG_20151016.2" />
+        <LISTITEM value="MNVG/MNVG_20151016.3" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20151123.1" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20160126.1" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20160126.2" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160228.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160229.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160229.1" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160306.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160307.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160307.1" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20160307.1" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160309.1" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160309.2" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160310.1" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20160311.1" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160313.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160314.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160314.1" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160314.1" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160314.2" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160318.1" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160318.1" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160318.2" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160320.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160321.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160321.1" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160321.1" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160322.1" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160327.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160328.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160328.1" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160329.1" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160329.1" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160329.2" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160329.2" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20160329.1" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20160329.2" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20160329.3" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20160329.4" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160331.1" />
+        <LISTITEM value="IS-GiCon4.6/IS-GiCon4.6_20160401.1" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160403.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160404.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160404.1" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160407.7" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160407.8" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160410.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160411.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160411.1" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160417.1" />
+        <LISTITEM value="Synchronizer/Synchronizer_20160417.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160418.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160418.1" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160419.1" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160419.2" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160419.3" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160420.1" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160420.1" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160420.2" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160420.2" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160420.1" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160420.3" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160420.1" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160421.1" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160421.1" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160421.1" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160421.1" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160422.1" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160422.1" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160422.2" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160424.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160425.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160425.1" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160425.1" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160425.1" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160427.1" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160427.1" />
+        <LISTITEM value="AutoversionUpdateWeekGI/AutoversionUpdateWeekGI_20160501.1" />
+        <LISTITEM value="AutoversionUpdateWeek2003/AutoversionUpdateWeek2003_20160502.1" />
+        <LISTITEM value="AutoversionUpdateWeek/AutoversionUpdateWeek_20160502.1" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160503.1" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160503.1" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160505.1" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160505.2" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160505.3" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160505.4" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160505.1" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160505.5" />
+        <LISTITEM value="GiCon45WithWeb45/GiCon45WithWeb45_20160510.1" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160510.1" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160510.1" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160510.2" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160510.1" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160512.4" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160512.1" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160512.5" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160512.6" />
+        <LISTITEM value="GiCon4.6/GiCon4.6_20160512.1" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160512.2" />
+        <LISTITEM value="IS-GiCon4.7/IS-GiCon4.7_20160512.1" />
+        <LISTITEM value="MNVG/MNVG_20160518.1" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160526.1" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160526.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160529.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160529.1" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160530.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160530.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160530.1" />
+        <LISTITEM value="GiCon4.5-Kuuk/GiCon4.5-Kuuk_20160530.1" />
+        <LISTITEM value="IS-GiCon4.5-Kuuk/IS-GiCon4.5-Kuuk_20160530.1" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160531.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160531.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160531.1" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160531.2" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160601.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160601.1" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160601.1" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160601.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160601.1" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160602.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160602.1" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160602.1" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160602.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160602.1" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160603.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160603.1" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160603.1" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160603.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160603.1" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160603.1" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160603.2" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160604.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160604.1" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160604.1" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160604.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160604.1" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160605.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160605.1" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160605.1" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160605.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160605.1" />
+        <LISTITEM value="GiCon4.5/GiCon4.5_20160606.1" />
+        <LISTITEM value="IS-GiCon4.5/IS-GiCon4.5_20160606.1" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160606.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160606.1" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160606.1" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160606.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160606.1" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160606.2" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160606.1" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160606.2" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160606.2" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160606.3" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160606.4" />
+        <LISTITEM value="AutoversionUpdateDay/AutoversionUpdateDay_20160607.1" />
+        <LISTITEM value="CheckInBuild4.4/CheckInBuild4.4_20160607.1" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160607.1" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160607.1" />
+        <LISTITEM value="AutoversionUpdateDayGI/AutoversionUpdateDayGI_20160607.1" />
+        <LISTITEM value="GiCon4.7/GiCon4.7_20160607.1" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160607.2" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160607.2" />
+        <LISTITEM value="CheckInBuild4.5/CheckInBuild4.5_20160607.3" />
+        <LISTITEM value="CheckInBuild4.6/CheckInBuild4.6_20160607.3" />
+      </GLOBALLIST>
+      <GLOBALLIST name="Builds - VAK">
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150714.1" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20150817.1" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20150820.1" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20150820.2" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20150910.1" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20150910.2" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20150910.3" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20150910.4" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150910.1" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150910.2" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20150918.1" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20150922.1" />
+        <LISTITEM value="CI - EvidenceZakazek/CI - EvidenceZakazek_20160422.1" />
+      </GLOBALLIST>
+      <GLOBALLIST name="Builds - CDCP">
+        <LISTITEM value="CDCP-ModelovaniPoTabulkach/CDCP-ModelovaniPoTabulkach_20160224.1" />
+        <LISTITEM value="CDCP-ModelovaniPoTabulkach/CDCP-ModelovaniPoTabulkach_20160225.1" />
+      </GLOBALLIST>
+      <GLOBALLIST name="Builds - VKM">
+        <LISTITEM value="VKM/VKM_20150511.3" />
+        <LISTITEM value="VKM/VKM_20150511.4" />
+        <LISTITEM value="VKM/VKM_20150511.5" />
+        <LISTITEM value="VKM/VKM_20150511.6" />
+        <LISTITEM value="VKM/VKM_20150512.1" />
+        <LISTITEM value="VKM/VKM_20150512.2" />
+        <LISTITEM value="VKM/VKM_20150512.3" />
+        <LISTITEM value="VKM/VKM_20150512.4" />
+        <LISTITEM value="VKM/VKM_20150716.1" />
+        <LISTITEM value="VKM/VKM_20150902.1" />
+      </GLOBALLIST>
+      <GLOBALLIST name="Builds - EvidenceZakazek">
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150224.1" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150224.2" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150224.3" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150226.1" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150226.2" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150226.3" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150226.4" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150226.5" />
+        <LISTITEM value="EvidenceZakazek/EvidenceZakazek_20150430.1" />
+      </GLOBALLIST>
+    </GLOBALLISTS>
+    <FIELDS>
+      <FIELD name="Iteration Path" refname="System.IterationPath" type="TreePath" reportable="dimension">
+        <HELPTEXT>The iteration within which this bug will be fixed</HELPTEXT>
+      </FIELD>
+      <FIELD name="Iteration ID" refname="System.IterationId" type="Integer" />
+      <FIELD name="External Link Count" refname="System.ExternalLinkCount" type="Integer" />
+      <FIELD name="Team Project" refname="System.TeamProject" type="String" reportable="dimension" />
+      <FIELD name="Hyperlink Count" refname="System.HyperLinkCount" type="Integer" />
+      <FIELD name="Attached File Count" refname="System.AttachedFileCount" type="Integer" />
+      <FIELD name="Node Name" refname="System.NodeName" type="String" />
+      <FIELD name="Area Path" refname="System.AreaPath" type="TreePath" reportable="dimension">
+        <HELPTEXT>The area of the product with which this bug is associated</HELPTEXT>
+      </FIELD>
+      <FIELD name="Revised Date" refname="System.RevisedDate" type="DateTime" reportable="detail" />
+      <FIELD name="Changed Date" refname="System.ChangedDate" type="DateTime" reportable="dimension" />
+      <FIELD name="ID" refname="System.Id" type="Integer" reportable="dimension" />
+      <FIELD name="Area ID" refname="System.AreaId" type="Integer" />
+      <FIELD name="Authorized As" refname="System.AuthorizedAs" type="String" syncnamechanges="true" />
+      <FIELD name="Title" refname="System.Title" type="String" reportable="dimension">
+        <HELPTEXT>Stories affected and how</HELPTEXT>
+        <REQUIRED />
+      </FIELD>
+      <FIELD name="State" refname="System.State" type="String" reportable="dimension">
+        <HELPTEXT>Change on reviewing, fixing or verifying the fix. Active = not yet fixed; Resolved = fix not yet verified; Closed = fix verified.</HELPTEXT>
+      </FIELD>
+      <FIELD name="Authorized Date" refname="System.AuthorizedDate" type="DateTime" />
+      <FIELD name="Watermark" refname="System.Watermark" type="Integer" />
+      <FIELD name="Rev" refname="System.Rev" type="Integer" reportable="dimension" />
+      <FIELD name="Changed By" refname="System.ChangedBy" type="String" syncnamechanges="true" reportable="dimension">
+        <ALLOWEXISTINGVALUE />
+        <VALIDUSER />
+      </FIELD>
+      <FIELD name="Reason" refname="System.Reason" type="String" reportable="dimension">
+        <HELPTEXT>The reason why the bug is in the current state</HELPTEXT>
+      </FIELD>
+      <FIELD name="Assigned To" refname="System.AssignedTo" type="String" syncnamechanges="true" reportable="dimension">
+        <HELPTEXT>The person currently working on this bug</HELPTEXT>
+        <ALLOWEXISTINGVALUE />
+        <VALIDUSER />
+      </FIELD>
+      <FIELD name="Work Item Type" refname="System.WorkItemType" type="String" reportable="dimension" />
+      <FIELD name="Created Date" refname="System.CreatedDate" type="DateTime" reportable="dimension" />
+      <FIELD name="Created By" refname="System.CreatedBy" type="String" syncnamechanges="true" reportable="dimension" />
+      <FIELD name="Description" refname="System.Description" type="HTML" />
+      <FIELD name="History" refname="System.History" type="History">
+        <HELPTEXT>Discussion thread plus automatic record of changes</HELPTEXT>
+      </FIELD>
+      <FIELD name="Related Link Count" refname="System.RelatedLinkCount" type="Integer" />
+      <FIELD name="Tags" refname="System.Tags" type="PlainText" />
+      <FIELD name="System Info" refname="Microsoft.VSTS.TCM.SystemInfo" type="HTML">
+        <HELPTEXT>Test context, provided automatically by test infrastructure</HELPTEXT>
+      </FIELD>
+      <FIELD name="Repro Steps" refname="Microsoft.VSTS.TCM.ReproSteps" type="HTML">
+        <HELPTEXT>How to see the bug. End by contrasting expected with actual behavior.</HELPTEXT>
+      </FIELD>
+      <FIELD name="State Change Date" refname="Microsoft.VSTS.Common.StateChangeDate" type="DateTime">
+        <WHENCHANGED field="System.State">
+          <SERVERDEFAULT from="clock" />
+        </WHENCHANGED>
+        <WHENNOTCHANGED field="System.State">
+          <READONLY />
+        </WHENNOTCHANGED>
+      </FIELD>
+      <FIELD name="Activated Date" refname="Microsoft.VSTS.Common.ActivatedDate" type="DateTime" reportable="dimension">
+        <WHENNOTCHANGED field="System.State">
+          <READONLY />
+        </WHENNOTCHANGED>
+      </FIELD>
+      <FIELD name="Activated By" refname="Microsoft.VSTS.Common.ActivatedBy" type="String" syncnamechanges="true" reportable="dimension">
+        <WHENNOTCHANGED field="System.State">
+          <ALLOWEXISTINGVALUE />
+          <READONLY />
+        </WHENNOTCHANGED>
+      </FIELD>
+      <FIELD name="Resolved Date" refname="Microsoft.VSTS.Common.ResolvedDate" type="DateTime" reportable="dimension">
+        <WHENNOTCHANGED field="System.State">
+          <READONLY />
+        </WHENNOTCHANGED>
+      </FIELD>
+      <FIELD name="Resolved By" refname="Microsoft.VSTS.Common.ResolvedBy" type="String" syncnamechanges="true" reportable="dimension">
+        <WHENNOTCHANGED field="System.State">
+          <ALLOWEXISTINGVALUE />
+          <READONLY />
+        </WHENNOTCHANGED>
+      </FIELD>
+      <FIELD name="Resolved Reason" refname="Microsoft.VSTS.Common.ResolvedReason" type="String" reportable="dimension">
+        <HELPTEXT>The reason why the bug was resolved</HELPTEXT>
+        <ALLOWEDVALUES expanditems="true">
+          <LISTITEM value="As Designed" />
+          <LISTITEM value="Cannot Reproduce" />
+          <LISTITEM value="Deferred" />
+          <LISTITEM value="Duplicate" />
+          <LISTITEM value="Fixed" />
+          <LISTITEM value="Obsolete" />
+        </ALLOWEDVALUES>
+        <FROZEN />
+      </FIELD>
+      <FIELD name="Closed Date" refname="Microsoft.VSTS.Common.ClosedDate" type="DateTime" reportable="dimension">
+        <WHENNOTCHANGED field="System.State">
+          <READONLY />
+        </WHENNOTCHANGED>
+      </FIELD>
+      <FIELD name="Closed By" refname="Microsoft.VSTS.Common.ClosedBy" type="String" syncnamechanges="true" reportable="dimension">
+        <WHENNOTCHANGED field="System.State">
+          <ALLOWEXISTINGVALUE />
+          <READONLY />
+        </WHENNOTCHANGED>
+      </FIELD>
+      <FIELD name="Priority" refname="Microsoft.VSTS.Common.Priority" type="Integer" reportable="dimension">
+        <HELPTEXT>Business importance. 1=must fix; 4=unimportant.</HELPTEXT>
+        <ALLOWEDVALUES expanditems="true">
+          <LISTITEM value="1" />
+          <LISTITEM value="2" />
+          <LISTITEM value="3" />
+          <LISTITEM value="4" />
+        </ALLOWEDVALUES>
+        <DEFAULT from="value" value="2" />
+      </FIELD>
+      <FIELD name="Severity" refname="Microsoft.VSTS.Common.Severity" type="String" reportable="dimension">
+        <HELPTEXT>Assessment of the effect of the bug on the project</HELPTEXT>
+        <ALLOWEDVALUES expanditems="true">
+          <LISTITEM value="1 - Critical" />
+          <LISTITEM value="2 - High" />
+          <LISTITEM value="3 - Medium" />
+          <LISTITEM value="4 - Low" />
+        </ALLOWEDVALUES>
+        <DEFAULT from="value" value="3 - Medium" />
+      </FIELD>
+      <FIELD name="Stack Rank" refname="Microsoft.VSTS.Common.StackRank" type="Double" reportable="dimension">
+        <HELPTEXT>Work first on items with lower-valued stack rank. Set in triage.</HELPTEXT>
+      </FIELD>
+      <FIELD name="Integration Build" refname="Microsoft.VSTS.Build.IntegrationBuild" type="String" reportable="dimension">
+        <HELPTEXT>The build in which the bug was fixed</HELPTEXT>
+        <SUGGESTEDVALUES expanditems="true">
+          <LISTITEM value="&lt;None&gt;" />
+        </SUGGESTEDVALUES>
+        <SUGGESTEDVALUES expanditems="true" filteritems="excludegroups">
+          <GLOBALLIST name="Builds - CONTROLLING" />
+        </SUGGESTEDVALUES>
+      </FIELD>
+      <FIELD name="Found In" refname="Microsoft.VSTS.Build.FoundIn" type="String" reportable="dimension">
+        <HELPTEXT>The build in which the bug was found</HELPTEXT>
+        <SUGGESTEDVALUES expanditems="true">
+          <LISTITEM value="&lt;None&gt;" />
+        </SUGGESTEDVALUES>
+        <SUGGESTEDVALUES expanditems="true" filteritems="excludegroups">
+          <GLOBALLIST name="Builds - CONTROLLING" />
+        </SUGGESTEDVALUES>
+      </FIELD>
+      <FIELD name="Remaining Work" refname="Microsoft.VSTS.Scheduling.RemainingWork" type="Double" reportable="measure" formula="sum">
+        <HELPTEXT>An estimate of the number of units of work remaining to complete this task</HELPTEXT>
+      </FIELD>
+      <FIELD name="Original Estimate" refname="Microsoft.VSTS.Scheduling.OriginalEstimate" type="Double" reportable="measure" formula="sum">
+        <HELPTEXT>Initial value for Remaining Work - set once, when work begins</HELPTEXT>
+      </FIELD>
+      <FIELD name="Completed Work" refname="Microsoft.VSTS.Scheduling.CompletedWork" type="Double" reportable="measure" formula="sum">
+        <HELPTEXT>The number of units of work that have been spent on this task</HELPTEXT>
+      </FIELD>
+      <FIELD name="Start Date" refname="Microsoft.VSTS.Scheduling.StartDate" type="DateTime" reportable="dimension">
+        <HELPTEXT>The date to start the bug</HELPTEXT>
+      </FIELD>
+      <FIELD name="Finish Date" refname="Microsoft.VSTS.Scheduling.FinishDate" type="DateTime" reportable="dimension">
+        <HELPTEXT>The date to finish the bug</HELPTEXT>
+      </FIELD>
+      <FIELD name="Due Date" refname="Microsoft.VSTS.Scheduling.DueDate" type="DateTime" reportable="dimension" />
+      <FIELD name="Deployment Status" refname="Custom.DeploymentStatus" type="String" reportable="dimension">
+        <ALLOWEDVALUES expanditems="true">
+          <LISTITEM value="Development" />
+          <LISTITEM value="Testing" />
+          <LISTITEM value="In Production" />
+        </ALLOWEDVALUES>
+      </FIELD>
+      <FIELD name="Deployment Date" refname="Custom.DeploymentDate" type="DateTime" reportable="dimension" />
+      <FIELD name="HD Ticket" refname="Custom.HDTicket" type="Integer" />
+      <FIELD name="MetasystemIDs" refname="Custom.MetasystemIDs" type="String" />
+      <FIELD name="Customer" refname="Custom.Customer" type="String" />
+      <FIELD name="Submitter" refname="Custom.Submitter" type="String" reportable="dimension">
+        <HELPTEXT>Originator of this bug</HELPTEXT>
+        <ALLOWEXISTINGVALUE />
+        <VALIDUSER />
+      </FIELD>
+    </FIELDS>
+    <WORKFLOW>
+      <STATES>
+        <STATE value="Active">
+          <FIELDS>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedDate">
+              <EMPTY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedBy">
+              <ALLOWEXISTINGVALUE />
+              <EMPTY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+              <EMPTY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ClosedDate">
+              <EMPTY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ClosedBy">
+              <ALLOWEXISTINGVALUE />
+              <EMPTY />
+            </FIELD>
+          </FIELDS>
+        </STATE>
+        <STATE value="Resolved">
+          <FIELDS>
+            <FIELD refname="Microsoft.VSTS.Common.ClosedDate">
+              <EMPTY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ClosedBy">
+              <ALLOWEXISTINGVALUE />
+              <EMPTY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+              <REQUIRED />
+            </FIELD>
+          </FIELDS>
+        </STATE>
+        <STATE value="Closed">
+          <FIELDS>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+              <READONLY />
+            </FIELD>
+          </FIELDS>
+        </STATE>
+      </STATES>
+      <TRANSITIONS>
+        <TRANSITION from="" to="Active">
+          <REASONS>
+            <DEFAULTREASON value="New" />
+            <REASON value="Build Failure" />
+          </REASONS>
+          <FIELDS>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedBy">
+              <ALLOWEXISTINGVALUE />
+              <COPY from="currentuser" />
+              <VALIDUSER />
+              <REQUIRED />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedDate">
+              <SERVERDEFAULT from="clock" />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Scheduling.StartDate">
+              <COPY from="clock" />
+            </FIELD>
+            <FIELD refname="Custom.Submitter">
+              <COPY from="currentuser" />
+            </FIELD>
+          </FIELDS>
+        </TRANSITION>
+        <TRANSITION from="Active" to="Resolved">
+          <REASONS>
+            <DEFAULTREASON value="Fixed">
+              <FIELDS>
+                <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+                  <COPY from="value" value="Fixed" />
+                  <ALLOWEDVALUES expanditems="true">
+                    <LISTITEM value="Fixed" />
+                  </ALLOWEDVALUES>
+                </FIELD>
+              </FIELDS>
+            </DEFAULTREASON>
+            <REASON value="Deferred">
+              <FIELDS>
+                <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+                  <COPY from="value" value="Deferred" />
+                  <ALLOWEDVALUES expanditems="true">
+                    <LISTITEM value="Deferred" />
+                  </ALLOWEDVALUES>
+                </FIELD>
+              </FIELDS>
+            </REASON>
+            <REASON value="Duplicate">
+              <FIELDS>
+                <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+                  <COPY from="value" value="Duplicate" />
+                  <ALLOWEDVALUES expanditems="true">
+                    <LISTITEM value="Duplicate" />
+                  </ALLOWEDVALUES>
+                </FIELD>
+              </FIELDS>
+            </REASON>
+            <REASON value="As Designed">
+              <FIELDS>
+                <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+                  <COPY from="value" value="As Designed" />
+                  <ALLOWEDVALUES expanditems="true">
+                    <LISTITEM value="As Designed" />
+                  </ALLOWEDVALUES>
+                </FIELD>
+              </FIELDS>
+            </REASON>
+            <REASON value="Cannot Reproduce">
+              <FIELDS>
+                <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+                  <COPY from="value" value="Cannot Reproduce" />
+                  <ALLOWEDVALUES expanditems="true">
+                    <LISTITEM value="Cannot Reproduce" />
+                  </ALLOWEDVALUES>
+                </FIELD>
+              </FIELDS>
+            </REASON>
+            <REASON value="Obsolete">
+              <FIELDS>
+                <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+                  <COPY from="value" value="Obsolete" />
+                  <ALLOWEDVALUES expanditems="true">
+                    <LISTITEM value="Obsolete" />
+                  </ALLOWEDVALUES>
+                </FIELD>
+              </FIELDS>
+            </REASON>
+          </REASONS>
+          <FIELDS>
+            <FIELD refname="System.AssignedTo">
+              <COPY from="field" field="System.CreatedBy" />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedDate">
+              <READONLY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedBy">
+              <ALLOWEXISTINGVALUE />
+              <READONLY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedBy">
+              <ALLOWEXISTINGVALUE />
+              <COPY from="currentuser" />
+              <VALIDUSER />
+              <REQUIRED />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedDate">
+              <SERVERDEFAULT from="clock" />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedReason">
+              <COPY from="value" value="Fixed" />
+            </FIELD>
+          </FIELDS>
+          <ACTIONS>
+            <ACTION value="Microsoft.VSTS.Actions.Checkin" />
+          </ACTIONS>
+        </TRANSITION>
+        <TRANSITION from="Resolved" to="Active">
+          <REASONS>
+            <DEFAULTREASON value="Not fixed" />
+            <REASON value="Test Failed" />
+          </REASONS>
+          <FIELDS>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedBy">
+              <ALLOWEXISTINGVALUE />
+              <COPY from="currentuser" />
+              <VALIDUSER />
+              <REQUIRED />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedDate">
+              <SERVERDEFAULT from="clock" />
+            </FIELD>
+            <FIELD refname="System.AssignedTo">
+              <COPY from="field" field="Microsoft.VSTS.Common.ResolvedBy" />
+            </FIELD>
+          </FIELDS>
+        </TRANSITION>
+        <TRANSITION from="Resolved" to="Closed">
+          <REASONS>
+            <DEFAULTREASON value="Verified" />
+          </REASONS>
+          <FIELDS>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedDate">
+              <READONLY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedBy">
+              <ALLOWEXISTINGVALUE />
+              <READONLY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedDate">
+              <READONLY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ResolvedBy">
+              <ALLOWEXISTINGVALUE />
+              <READONLY />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ClosedDate">
+              <SERVERDEFAULT from="clock" />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ClosedBy">
+              <ALLOWEXISTINGVALUE />
+              <COPY from="currentuser" />
+              <VALIDUSER />
+              <REQUIRED />
+            </FIELD>
+          </FIELDS>
+        </TRANSITION>
+        <TRANSITION from="Closed" to="Active">
+          <REASONS>
+            <DEFAULTREASON value="Regression" />
+            <REASON value="Reactivated" />
+          </REASONS>
+          <FIELDS>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedDate">
+              <SERVERDEFAULT from="clock" />
+            </FIELD>
+            <FIELD refname="System.AssignedTo">
+              <COPY from="field" field="Microsoft.VSTS.Common.ResolvedBy" />
+            </FIELD>
+            <FIELD refname="Microsoft.VSTS.Common.ActivatedBy">
+              <COPY from="currentuser" />
+              <VALIDUSER />
+              <REQUIRED />
+            </FIELD>
+          </FIELDS>
+        </TRANSITION>
+      </TRANSITIONS>
+    </WORKFLOW>
+    <FORM>
+      <Layout>
+        <Group>
+          <Column PercentWidth="80">
+            <Control FieldName="System.Title" Type="FieldControl" Label="&amp;Title:" LabelPosition="Left" />
+          </Column>
+          <Column PercentWidth="20">
+            <Control FieldName="Custom.HDTicket" Type="FieldControl" Label="HD Ticket:" LabelPosition="Left">
+              <Link UrlRoot="https://gist.stapro.cz" UrlPath="helpdesk/Task.aspx?id={0}">
+                <Param Index="0" Value="Custom.HDTicket" Type="Current" />
+              </Link>
+            </Control>
+          </Column>
+        </Group>
+        <Group>
+          <Column PercentWidth="50">
+            <Group Label="Status">
+              <Column PercentWidth="100">
+                <Control FieldName="System.AssignedTo" Type="FieldControl" Label="Assi&amp;gned To:" LabelPosition="Left" />
+                <Control FieldName="System.State" Type="FieldControl" Label="&amp;State:" LabelPosition="Left" />
+                <Control FieldName="System.Reason" Type="FieldControl" Label="&amp;Reason:" LabelPosition="Left" />
+                <Control FieldName="Microsoft.VSTS.Common.ResolvedReason" Type="FieldControl" Label="Resolved Reason:" LabelPosition="Left" ReadOnly="True" />
+              </Column>
+            </Group>
+          </Column>
+          <Column PercentWidth="50">
+            <Group Label="Classification">
+              <Column PercentWidth="100">
+                <Control FieldName="System.AreaPath" Type="WorkItemClassificationControl" Label="&amp;Area:" LabelPosition="Left" />
+                <Control FieldName="System.IterationPath" Type="WorkItemClassificationControl" Label="Ite&amp;ration:" LabelPosition="Left" />
+                <Control FieldName="Microsoft.VSTS.Common.Priority" Type="FieldControl" Label="&amp;Priority:" LabelPosition="Left" />
+                <Control FieldName="Microsoft.VSTS.Common.Severity" Type="FieldControl" Label="Se&amp;verity:" LabelPosition="Left" />
+              </Column>
+            </Group>
+          </Column>
+        </Group>
+        <Group>
+          <Column PercentWidth="50">
+            <Group Label="Dates">
+              <Column PercentWidth="100">
+                <Control FieldName="Microsoft.VSTS.Scheduling.StartDate" Type="DateTimeControl" Label="Start:" LabelPosition="Left" Name="StartDate" />
+                <Control FieldName="Microsoft.VSTS.Scheduling.FinishDate" Type="DateTimeControl" Label="Finish:" LabelPosition="Left" Name="EndDate" />
+                <Control FieldName="Microsoft.VSTS.Scheduling.DueDate" Type="DateTimeControl" Label="Due:" LabelPosition="Left" Name="DueDate" />
+              </Column>
+            </Group>
+          </Column>
+          <Column PercentWidth="50">
+            <Group Label="Effort (Hours)">
+              <Column PercentWidth="100">
+                <Control FieldName="Microsoft.VSTS.Scheduling.OriginalEstimate" Type="FieldControl" Label="Original &amp;Estimate:" LabelPosition="Left" />
+                <Control FieldName="Microsoft.VSTS.Scheduling.RemainingWork" Type="FieldControl" Label="Re&amp;maining:" LabelPosition="Left" />
+                <Control FieldName="Microsoft.VSTS.Scheduling.CompletedWork" Type="FieldControl" Label="Comp&amp;leted:" LabelPosition="Left" />
+              </Column>
+            </Group>
+          </Column>
+        </Group>
+        <Group Label="GI Detail">
+          <Column PercentWidth="25">
+            <Control FieldName="Custom.MetasystemIDs" Type="FieldControl" Label="Metasystem:" LabelPosition="Left" />
+          </Column>
+          <Column PercentWidth="25">
+            <Control FieldName="Custom.Customer" Type="FieldControl" Label="Customer:" LabelPosition="Left" Name="Customer" />
+          </Column>
+          <Column PercentWidth="25">
+            <Control FieldName="Custom.Submitter" Type="FieldControl" Label="Submitter:" LabelPosition="Left" />
+          </Column>
+          <Column PercentWidth="25">
+            <Control FieldName="Custom.DeploymentDate" Type="DateTimeControl" Label="Deployment Date:" LabelPosition="Left" />
+          </Column>
+        </Group>
+        <TabGroup>
+          <Tab Label="Details">
+            <Group>
+              <Column PercentWidth="50">
+                <Control FieldName="Microsoft.VSTS.TCM.ReproSteps" Type="HtmlFieldControl" Label="Steps to Repro&amp;duce:" LabelPosition="Top" Dock="Fill" MinimumSize="(100,200)" />
+              </Column>
+              <Column PercentWidth="50">
+                <Control FieldName="System.History" Type="WorkItemLogControl" Label="&amp;History:" LabelPosition="Top" Dock="Fill" />
+              </Column>
+            </Group>
+          </Tab>
+          <Tab Label="System Info">
+            <Group>
+              <Column PercentWidth="50">
+                <Control FieldName="Microsoft.VSTS.Build.FoundIn" Type="FieldControl" Label="&amp;Found in Build:" LabelPosition="Left" />
+              </Column>
+              <Column PercentWidth="50">
+                <Control FieldName="Microsoft.VSTS.Build.IntegrationBuild" Type="FieldControl" Label="In&amp;tegrated in Build:" LabelPosition="Left" />
+              </Column>
+            </Group>
+            <Control FieldName="Microsoft.VSTS.TCM.SystemInfo" Type="HtmlFieldControl" Label="System I&amp;nfo:" LabelPosition="Top" Dock="Fill" />
+          </Tab>
+          <Tab Label="Test Cases">
+            <Control Type="LinksControl" Label="Test &amp;Cases testing this Bug:" LabelPosition="Top" Name="TestedBy">
+              <LinksControlOptions>
+                <LinkColumns>
+                  <LinkColumn RefName="System.ID" />
+                  <LinkColumn RefName="System.WorkItemType" />
+                  <LinkColumn RefName="System.Title" />
+                  <LinkColumn RefName="System.AssignedTo" />
+                  <LinkColumn RefName="System.State" />
+                  <LinkColumn LinkAttribute="System.Links.Comment" />
+                </LinkColumns>
+                <WorkItemLinkFilters FilterType="include">
+                  <Filter LinkType="Microsoft.VSTS.Common.TestedBy" FilterOn="forwardname" />
+                </WorkItemLinkFilters>
+                <ExternalLinkFilters FilterType="excludeAll" />
+                <WorkItemTypeFilters FilterType="include">
+                  <Filter WorkItemType="Test Case" />
+                </WorkItemTypeFilters>
+              </LinksControlOptions>
+            </Control>
+          </Tab>
+          <Tab Label="All Links">
+            <Control Type="LinksControl" LabelPosition="Top" Name="GeneralLinks">
+              <LinksControlOptions>
+                <LinkColumns>
+                  <LinkColumn RefName="System.ID" />
+                  <LinkColumn RefName="System.WorkItemType" />
+                  <LinkColumn RefName="System.Title" />
+                  <LinkColumn RefName="System.AssignedTo" />
+                  <LinkColumn RefName="System.State" />
+                  <LinkColumn LinkAttribute="System.Links.Comment" />
+                </LinkColumns>
+              </LinksControlOptions>
+            </Control>
+          </Tab>
+          <Tab Label="Attachments">
+            <Control Type="AttachmentsControl" LabelPosition="Top" />
+          </Tab>
+        </TabGroup>
+      </Layout>
+    </FORM>
+  </WORKITEMTYPE>
+</witd:WITD>

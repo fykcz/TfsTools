@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsWatcher", "TFSWatcher\TfsWatcher.csproj", "{18D751C2-ACAE-4F52-9717-C08EC640C86E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsCommonControls", "TfsCommonControls\TfsCommonControls.csproj", "{AFEC31F6-1E6D-4834-85E9-67C9AF931AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlDescriptionMigrator", "HtmlDescriptionMigrator\HtmlDescriptionMigrator.csproj", "{BF555A75-1CAD-48E2-A9C4-74CD736900EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasAndIterationsOnanyzer", "AreasAndIterationsOnanyzer\AreasAndIterationsOnanyzer.csproj", "{275BA4C6-87C8-492D-8DFD-B3C6385DACBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkItemDestroyer", "WorkItemDestroyer\WorkItemDestroyer.csproj", "{F476460A-8083-41E8-B1F1-CE9B063F57CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estimate2Remaining", "Estimate2Remaining\Estimate2Remaining.csproj", "{E1DF9AC4-D9A4-4C4F-8FCA-1C2AC1496BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TfsCleaner", "TfsCleaner\TfsCleaner.csproj", "{6E8EB443-7075-484B-98CE-A225CC417552}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18D751C2-ACAE-4F52-9717-C08EC640C86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D751C2-ACAE-4F52-9717-C08EC640C86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D751C2-ACAE-4F52-9717-C08EC640C86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D751C2-ACAE-4F52-9717-C08EC640C86E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFEC31F6-1E6D-4834-85E9-67C9AF931AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFEC31F6-1E6D-4834-85E9-67C9AF931AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFEC31F6-1E6D-4834-85E9-67C9AF931AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFEC31F6-1E6D-4834-85E9-67C9AF931AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF555A75-1CAD-48E2-A9C4-74CD736900EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF555A75-1CAD-48E2-A9C4-74CD736900EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF555A75-1CAD-48E2-A9C4-74CD736900EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF555A75-1CAD-48E2-A9C4-74CD736900EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{275BA4C6-87C8-492D-8DFD-B3C6385DACBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275BA4C6-87C8-492D-8DFD-B3C6385DACBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275BA4C6-87C8-492D-8DFD-B3C6385DACBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275BA4C6-87C8-492D-8DFD-B3C6385DACBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F476460A-8083-41E8-B1F1-CE9B063F57CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F476460A-8083-41E8-B1F1-CE9B063F57CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F476460A-8083-41E8-B1F1-CE9B063F57CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F476460A-8083-41E8-B1F1-CE9B063F57CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1DF9AC4-D9A4-4C4F-8FCA-1C2AC1496BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1DF9AC4-D9A4-4C4F-8FCA-1C2AC1496BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1DF9AC4-D9A4-4C4F-8FCA-1C2AC1496BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1DF9AC4-D9A4-4C4F-8FCA-1C2AC1496BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8EB443-7075-484B-98CE-A225CC417552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8EB443-7075-484B-98CE-A225CC417552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8EB443-7075-484B-98CE-A225CC417552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8EB443-7075-484B-98CE-A225CC417552}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
