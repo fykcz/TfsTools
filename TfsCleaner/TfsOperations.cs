@@ -9,6 +9,7 @@ namespace FYK.Tfs.TfsCleaner
 	{
 		private OperationsSection _operations = null;
 		private WorkItemStore _store = null;
+
 		public TfsOperations(OperationsSection operations)
 		{
 			_operations = operations;
@@ -37,6 +38,7 @@ namespace FYK.Tfs.TfsCleaner
 
 		public void RunOperations()
 		{
+			Utils.DebugWrite("{0} operation{1} in line", _operations.Operations.Count, (_operations.Operations.Count > 1) ? "s" : "");
 			foreach (Operation operation in _operations.Operations)
 			{
 				var query = string.Format("SELECT * FROM WorkItems WHERE [System.TeamProject]='{0}' and {1}", operation.Project, operation.Condition);
@@ -51,8 +53,20 @@ namespace FYK.Tfs.TfsCleaner
 		{
 			foreach (WorkItem wi in workItems)
 			{
-				//Console.Out.WriteLine(string.Format("{0} {1} {2}", wi.Id, wi.Title, wi.Fields[operation.Action.FieldName].Value));
-
+				Utils.DebugWrite("WI: {0}\t{1}", wi.Id, wi.Title);
+				switch (operation.Action.Type)
+				{
+					case "Set":
+						var fieldName = operation.Action.FieldName;
+						Utils.DebugWrite("Set new value \"{1}\" for field \"{0}\" with original value \"{2}\"", fieldName, operation.Action.NewValue, wi.Fields[fieldName].Value);
+						wi.Open();
+						wi.Fields[fieldName].Value = operation.Action.NewValue;
+						wi.Save();
+						break;
+					default:
+						Utils.DebugWrite("Unknown type \"{0}\" of action", operation.Action.Type);
+						break;
+				}
 			}
 		}
 	}

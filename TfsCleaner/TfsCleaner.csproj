@@ -36,28 +36,11 @@
     <Reference Include="Microsoft.TeamFoundation.Client">
       <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\l50ti0em.sgt\Microsoft.TeamFoundation.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.TeamFoundation.Common">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\l50ti0em.sgt\Microsoft.TeamFoundation.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.TeamFoundation.ProjectManagement">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\l50ti0em.sgt\Microsoft.TeamFoundation.ProjectManagement.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Client">
       <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\l50ti0em.sgt\Microsoft.TeamFoundation.WorkItemTracking.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Common">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\l50ti0em.sgt\Microsoft.TeamFoundation.WorkItemTracking.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.Controls">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\l50ti0em.sgt\Microsoft.TeamFoundation.WorkItemTracking.Controls.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.TeamFoundation.WorkItemTracking.ControlsCore">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\l50ti0em.sgt\Microsoft.TeamFoundation.WorkItemTracking.ControlsCore.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arguments.cs" />
