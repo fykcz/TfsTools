@@ -5,6 +5,7 @@
 * Contributors:	R. LOPES
 * Created:		25 October 2002
 * Modified:		28 October 2002
+* Stoled:       god knows
 *
 * Version:		1.0
 */

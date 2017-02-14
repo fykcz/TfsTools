@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <xs:element name="TfsCleanerOperations">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="Operations">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="Operation">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Action">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="Type" type="xs:string"></xs:attribute>
+                                                                           <xs:attribute name="FieldName" type="xs:string"></xs:attribute>
+                                                                           <xs:attribute name="NewValue" type="xs:string"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                         <xs:attribute name="Name" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="Project" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="Condition" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="Configuration">
+                                 <xs:complexType>
+                                       <xs:attribute name="URL" type="xs:string"></xs:attribute>
+                                       <xs:attribute name="UserName" type="xs:string"></xs:attribute>
+                                       <xs:attribute name="Domain" type="xs:string"></xs:attribute>
+                                       <xs:attribute name="Password" type="xs:string"></xs:attribute>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
