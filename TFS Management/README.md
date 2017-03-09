@@ -1,8 +1,11 @@
 # Vývoj s TFS
+## Unce upon a time
+V některém předchozím působišti jsme přivohnuli TFS k obrazu našemu. Bylo to násilné, hrubé ... a fungovalo to těžkopádně. Napsali jsme si návod, jak s tím pracovat. Nebylo to vždycky úspěšné. Ale abych na tu dobu nezapomněl, tak jsem si ty pravidla tady nechal.
+
 ## Základní společná pravidla by JM
-* V TFS ([Overview](http://vmwtfs:8080/tfs/DefaultCollection/CONTROLLING/_dashboards#activeDashboardId=1c8463d2-db9b-4315-8f08-e2e7c78a97d2))
+* V TFS ([Overview](http://XXX/_dashboards#activeDashboardId=1c8463d2-db9b-4315-8f08-e2e7c78a97d2))
 jsou všechny údaje přestrukturovány tak, aby bylo na první pohled jasné, na čem se má prioritně pracovat ve stávající verzi.
-* Stávající verze je vždy uvedena pod odstavcem [current](http://vmwtfs:8080/tfs/DefaultCollection/CONTROLLING/_backlogs/Iteration/4.5/4.5.2016-04%20(nezn%C3%A1m%C3%A9))
+* Stávající verze je vždy uvedena pod odstavcem [current](http://XXX/_backlogs/Iteration/4.5/4.5.2016-04%20(nezn%C3%A1m%C3%A9))
 A měla by tam být vždy jen jedna. Na toto se můžete dívat i z VS přes volby v Team Explorer (kdyby někdo nevěděl).
 * Úkoly uvedené pod tímto odkazem jsou jediné úkoly, které lze commitovat zpět do verze. 
 * Pokud nemáte pod tímto nic uvedeno , případně všechno hotovo, můžete, přímo musíte, pracovat na dalších úkolech, tak jak jsou přiděleny podle priorit.
@@ -21,7 +24,7 @@ Sloupec build byl přejmenován na metasystém ID a bude v něm vyplněno přís
 * Do kolonky **Completed** nepíšu **100** jako 100%, ale skutečný počet odpracovaných hodin.
 * Práci se snažím dokončit do data určeného v **Due Date**.
 * Když nestíhám, řeším se zadavatelem. Buď mi posune **Due** nebo mě čeká noční.
-* Na homepage ([Overview](http://vmwtfs:8080/tfs/DefaultCollection/CONTROLLING/_dashboards#activeDashboardId=1c8463d2-db9b-4315-8f08-e2e7c78a97d2)) je hned v levém horním rohu graf **My Items**. Tam naleznu všechny moje aktivní a odevzdané zadání a chyby.
+* Na homepage ([Overview](http://XXX/_dashboards#activeDashboardId=1c8463d2-db9b-4315-8f08-e2e7c78a97d2)) je hned v levém horním rohu graf **My Items**. Tam naleznu všechny moje aktivní a odevzdané zadání a chyby.
 * Pokouším se nejprve zpracovat všechny chyby, teprve pak jdu na další zadání. 
 
 ## Pravidla pro zadavatele
