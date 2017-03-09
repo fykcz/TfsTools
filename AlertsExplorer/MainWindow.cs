@@ -16,6 +16,9 @@ namespace Fyk.Tfs.AlertsExplorer
 		public MainWindow()
 		{
 			InitializeComponent();
+#if DEBUG
+			tfsUrlAndProjects.Url = Utils.TfsUrl;
+#endif
 		}
 
 		public void WindowMsg(WorkItem workItem, MsgTypes msgType)

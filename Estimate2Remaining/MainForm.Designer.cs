@@ -29,13 +29,13 @@
 		private void InitializeComponent()
 		{
 			this.wiListView = new System.Windows.Forms.ListView();
-			this.loadItemsButton = new System.Windows.Forms.Button();
 			this.idColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.typeColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.stateColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.titleColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.originalEstColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.remainingColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+			this.loadItemsButton = new System.Windows.Forms.Button();
 			this.tfsUrlAndProjects = new Fyk.Tfs.TfsCommonControls.TfsUrlAndProjects();
 			this.allSelCheckBox = new System.Windows.Forms.CheckBox();
 			this.updateButton = new System.Windows.Forms.Button();
@@ -65,17 +65,6 @@
 			this.wiListView.View = System.Windows.Forms.View.Details;
 			this.wiListView.DoubleClick += new System.EventHandler(this.wiListView_DoubleClick);
 			// 
-			// loadItemsButton
-			// 
-			this.loadItemsButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
-			this.loadItemsButton.Location = new System.Drawing.Point(205, 76);
-			this.loadItemsButton.Name = "loadItemsButton";
-			this.loadItemsButton.Size = new System.Drawing.Size(75, 23);
-			this.loadItemsButton.TabIndex = 2;
-			this.loadItemsButton.Text = "Load items";
-			this.loadItemsButton.UseVisualStyleBackColor = true;
-			this.loadItemsButton.Click += new System.EventHandler(this.loadItemsButton_Click);
-			// 
 			// idColumnHeader
 			// 
 			this.idColumnHeader.Text = "ID";
@@ -103,6 +92,17 @@
 			// 
 			this.remainingColumnHeader.Text = "Remaining";
 			// 
+			// loadItemsButton
+			// 
+			this.loadItemsButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+			this.loadItemsButton.Location = new System.Drawing.Point(205, 76);
+			this.loadItemsButton.Name = "loadItemsButton";
+			this.loadItemsButton.Size = new System.Drawing.Size(75, 23);
+			this.loadItemsButton.TabIndex = 2;
+			this.loadItemsButton.Text = "Load items";
+			this.loadItemsButton.UseVisualStyleBackColor = true;
+			this.loadItemsButton.Click += new System.EventHandler(this.loadItemsButton_Click);
+			// 
 			// tfsUrlAndProjects
 			// 
 			this.tfsUrlAndProjects.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -111,7 +111,7 @@
 			this.tfsUrlAndProjects.Name = "tfsUrlAndProjects";
 			this.tfsUrlAndProjects.Size = new System.Drawing.Size(460, 58);
 			this.tfsUrlAndProjects.TabIndex = 1;
-			this.tfsUrlAndProjects.Url = "http://vmwtfs:8080/tfs/defaultcollection";
+			this.tfsUrlAndProjects.Url = "";
 			// 
 			// allSelCheckBox
 			// 

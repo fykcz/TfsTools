@@ -139,7 +139,7 @@
 			this.tfsUrlAndProjects.Name = "tfsUrlAndProjects";
 			this.tfsUrlAndProjects.Size = new System.Drawing.Size(1046, 58);
 			this.tfsUrlAndProjects.TabIndex = 10;
-			this.tfsUrlAndProjects.Url = "http://vmwtfs:8080/tfs/defaultcollection";
+			this.tfsUrlAndProjects.Url = "";
 			// 
 			// MainWindow
 			// 

@@ -17,6 +17,9 @@ namespace Fyk.Tfs.TfsWatcher
 		public MainForm()
 		{
 			InitializeComponent();
+#if DEBUG
+			urlTextBox.Text = Utils.TfsUrl;
+#endif
 
 			var mi = _contextMenu.MenuItems.Add("Show window", MenuShowWindow);
 			mi.DefaultItem = true;

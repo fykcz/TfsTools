@@ -23,9 +23,9 @@ namespace Fyk.Tfs.TfsCommonControls
 
 		public static string GetUrlForEditWorkItem(WorkItem item)
 		{
-			return string.Format("http://vmwtfs:8080/tfs/DefaultCollection/{0}/_workitems#_a=edit&id={1}", item.Project.Name, item.Id);
+			return string.Format("{2}/{0}/_workitems#_a=edit&id={1}", item.Project.Name, item.Id, TfsUrl);
 		}
 
-		public const string TfsUrl = @"http://vmwtfs:8080/tfs/defaultcollection";
+		public const string TfsUrl = @"https://vyvoj1/tfs/AstraNET";
 	}
 }

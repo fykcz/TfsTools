@@ -50,6 +50,9 @@ namespace Fyk.Tfs.AreasAndIterationsOnanyzer
 		public MainWindow()
 		{
 			InitializeComponent();
+#if DEBUG
+			tfsUrlAndProjects.Url = Utils.TfsUrl;
+#endif
 		}
 
 		private void SetListViewItem(WorkItem workItem, ListViewItem listViewItem, bool update = false)

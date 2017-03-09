@@ -120,8 +120,8 @@ namespace FYK.Tfs.TfsCleaner
 		[ConfigurationProperty("Password", IsRequired = true)]
 		public string Password
 		{
-			get { return (string)this["Password"]; }
-			set { this["Password"] = value; }
+			get { return Utils.UnProtect((string)this["Password"]); }
+			set { this["Password"] = Utils.Protect(value); }
 		}
 	}
 

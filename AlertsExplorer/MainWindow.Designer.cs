@@ -28,7 +28,6 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.tfsUrlAndProjects = new Fyk.Tfs.TfsCommonControls.TfsUrlAndProjects();
 			this.allSelCheckBox = new System.Windows.Forms.CheckBox();
 			this.loadItemsButton = new System.Windows.Forms.Button();
 			this.wiListView = new System.Windows.Forms.ListView();
@@ -37,17 +36,8 @@
 			this.deviceColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.subscriberColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
 			this.addressColumnHeader = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+			this.tfsUrlAndProjects = new Fyk.Tfs.TfsCommonControls.TfsUrlAndProjects();
 			this.SuspendLayout();
-			// 
-			// tfsUrlAndProjects
-			// 
-			this.tfsUrlAndProjects.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.tfsUrlAndProjects.Location = new System.Drawing.Point(13, 13);
-			this.tfsUrlAndProjects.Name = "tfsUrlAndProjects";
-			this.tfsUrlAndProjects.Size = new System.Drawing.Size(1045, 58);
-			this.tfsUrlAndProjects.TabIndex = 0;
-			this.tfsUrlAndProjects.Url = "http://vmwtfs:8080/tfs/defaultcollection";
 			// 
 			// allSelCheckBox
 			// 
@@ -115,6 +105,16 @@
 			// 
 			this.addressColumnHeader.Text = "Address";
 			this.addressColumnHeader.Width = 200;
+			// 
+			// tfsUrlAndProjects
+			// 
+			this.tfsUrlAndProjects.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.tfsUrlAndProjects.Location = new System.Drawing.Point(13, 13);
+			this.tfsUrlAndProjects.Name = "tfsUrlAndProjects";
+			this.tfsUrlAndProjects.Size = new System.Drawing.Size(1045, 58);
+			this.tfsUrlAndProjects.TabIndex = 0;
+			this.tfsUrlAndProjects.Url = "";
 			// 
 			// MainWindow
 			// 

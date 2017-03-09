@@ -22,6 +22,9 @@ namespace Fyk.Tfs.Estimate2Remaining
 		public MainForm()
 		{
 			InitializeComponent();
+#if DEBUG
+			tfsUrlAndProjects.Url = Utils.TfsUrl;
+#endif
 		}
 
 		public void WindowMsg(WorkItem workItem, MsgTypes msgType)
